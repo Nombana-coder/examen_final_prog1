@@ -78,12 +78,6 @@ Le dossier `dist/` contient les fichiers HTML générés et est ignoré par Git 
 - Ce fichier illustre l’utilisation de `fs` et `path` pour manipuler des fichiers.
 - Un appel direct vers `decodeBase64ToImage(...)` est présent dans le fichier, créant un fichier `output.png`.
 
-### `d.js`
-- Contient un calcul inachevé du nombre total de mots.
-- Importe `articles` depuis `data.js`.
-- Utilise `countWords()` sans l’importer réellement.
-- Ce fichier semble être un prototype ou un test et n’est pas nécessaire au build principal.
-
 ### `package.json`
 - Déclare le projet sous le nom `website-generator`.
 - Définit la version `1.0.0`.
